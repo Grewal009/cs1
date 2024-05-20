@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        /*
         Console.WriteLine("Hello, World!");
         Console.Write("Enter your name:");
         var name = Console.ReadLine(); //press enter to finish
@@ -18,6 +19,10 @@ class Program
         var key = Console.ReadKey(); // it does not require to press the enter key 
         Console.WriteLine();
         Console.WriteLine($"You pressed: {key.Key}");
-
+        */
+        
+        Console.Write("Hei, hva heter du? ");
+        var navn = Console.ReadLine();
+        Console.WriteLine($"Velkommen {navn}!");
     }
 }
